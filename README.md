@@ -51,7 +51,7 @@ var params = {
     }
    ]
   }, 
-  description: "Orders a pizza from a local pizzeria.", 
+  description: "Introduce Yourself", 
   idleSessionTTLInSeconds: 300, 
   intents: [
      {
