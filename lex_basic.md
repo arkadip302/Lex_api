@@ -9,5 +9,9 @@ Documentation on AWS Lex
 * Cost Efficient than other cloud service provider.
 
 ## Introduction To Console Way Of Creating Lex
-
-* Get Logged in [AWS Console](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fhomepage&forceMobileApp=0).
+1. Get Logged in [AWS Console](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fhomepage&forceMobileApp=0).
+<img src="lex_basic/console.png" width="1000" height="400">
+2. Select **Amazon Lex** from drop down in Console.
+<img src="lex_basic/bar.png" width="1000" height="400">
+3. Create a Chatbot.
+<img src="lex_basic/create.png" width="1000" height="400">
