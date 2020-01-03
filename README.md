@@ -71,3 +71,36 @@ var params = {
  });
 };
 ```
+# For Direct Use Of Api
+     There are some Api's I have created using AWS Lex,Lamda,Api.
+## Get Bot Details API
+ (https://models.lex.us-east-1.amazonaws.com/bots/<BotName>/versions/<Alias>)
+ 
+## Get Bot Alias
+(https://models.lex.us-east-1.amazonaws.com/bots/<BotName>/aliases/<alias>) 
+ 
+## Post Text
+(https://runtime.lex.us-east-1.amazonaws.com/bot/<BotName>/alias/<aliasName>/user/<userId>/text)
+ 
+ ### Body
+  ```nodejs
+   {
+    "inputText": "order flower"
+   }
+  ```
+## Put Bot
+(https://models.lex.us-east-1.amazonaws.com/bots/<BotName>/versions/$LATEST)
+ 
+ 
+   ### Body
+     Mentioned Above.
+ 
+ 
+## Delete Bot
+(https://models.lex.us-east-1.amazonaws.com/bots/<BotName>)
+ 
+## Delete Bot Alias
+(https://models.lex.us-east-1.amazonaws.com/bots/<BotName>/aliases/<alias>)
+ 
+## Get Missed Utterences
+(https://models.lex.us-east-1.amazonaws.com/bots/<BotName>/utterances?view=aggregation&bot_versions=1&status_type=Missed)
